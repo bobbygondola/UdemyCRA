@@ -12,8 +12,8 @@ const App = function () {
         <label className="label" for ="name">
             {labelName.text}
         </label>
-        <input id="name" type="text" />
-        <button style={{backgroundColor: "blue", color: "white"}}>
+        <input style={{marginLeft: "10px"}} id="name" type="text" />
+        <button style={{marginLeft: "15px", backgroundColor: "blue", color: "white"}}>
             {text.text}
         </button>
     </div>
