@@ -8,12 +8,12 @@ const App = function () {
     const text = {text: "Click Me"}
     const labelName = {text: "Enter Name"}
   return (
-    <div>
+    <div style={{width: "80%", backgroundColor: "red", padding: "5%", margin: "0 auto"}} className="app">
         <label className="label" for ="name">
             {labelName.text}
         </label>
         <input style={{marginLeft: "10px"}} id="name" type="text" />
-        <button style={{marginLeft: "15px", backgroundColor: "blue", color: "white"}}>
+        <button style={{marginLeft: "15px", backgroundColor: "lightblue", color: "white"}}>
             {text.text}
         </button>
     </div>
