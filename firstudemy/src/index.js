@@ -13,7 +13,7 @@ const App = function () {
             {labelName.text}
         </label>
         <input style={{marginLeft: "10px"}} id="name" type="text" />
-        <button style={{marginLeft: "15px", backgroundColor: "lightblue", color: "white"}}>
+        <button style={{marginLeft: "14px", backgroundColor: "lightblue", color: "white"}}>
             {text.text}
         </button>
     </div>
